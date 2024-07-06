@@ -1,9 +1,9 @@
 const FormContainer = () => {
   return (
     <>
-    <img className="absolute -z-10 w-screen" src="https://cdn.forms.office.net/forms/images/neopages/template/tm56388197.png" alt="bg-img"/>
+    <img className="absolute -z-10 md:w-screen h-screen object-cover" src="https://cdn.forms.office.net/forms/images/neopages/template/tm56388197.png" alt="bg-img"/>
     <div className="flex justify-center">
-        <div className="bg-white bg-opacity-70 w-1/3 h-screen">
+        <div className="bg-white bg-opacity-70 w-[80%] md:w-1/3 h-screen">
             <div className="my-2 p-2">
                 <h1 className="p-2 m-2 text-4xl text-bold flex justify-center">
                     Personal Information
