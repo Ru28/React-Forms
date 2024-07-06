@@ -1,8 +1,12 @@
+import FormBody from "./components/FormBody"
+
 function App() {
 
   return (
     <>
-      <div>Hello world</div>
+      <div>
+        <FormBody/>
+      </div>
     </>
   )
 }
