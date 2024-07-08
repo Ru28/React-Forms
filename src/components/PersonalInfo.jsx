@@ -12,7 +12,6 @@ const PersonalInfo = () => {
                 mobileNumber: mobileNumber?.current?.value
             }
             localStorage.setItem("person_info",JSON.stringify(personInfo));
-            console.log(personInfo);
     }
         
     

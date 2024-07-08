@@ -1,4 +1,4 @@
-import FormBody from "./components/FormBody"
+import FormBody from "./components/FormBody";
 
 function App() {
 
