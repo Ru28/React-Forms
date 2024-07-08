@@ -86,7 +86,7 @@ const FormContainer = () => {
         if(page==0)validateInfo();
         if(page==1)validateAddressInfo();
         console.log(page,isValid);
-        if(isValid){
+        if(Object.keys(errors).length === 0){
             setPage(page+1)
             if(page==0){
                 setIsPrevDiable(false);
